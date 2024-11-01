@@ -1,6 +1,4 @@
-# APTRUSTNOV12
-
-# [Course Title] - Rust Programming Essentials
+# [APTRUSTNOV12] - Rust Programming Essentials
 
 Welcome to the **Rust Programming Essentials** course! This course is designed to provide a comprehensive foundation in Rust programming, covering everything from basic syntax to advanced topics like error handling, memory safety, and concurrency.
 
@@ -78,10 +76,125 @@ This course is ideal for:
 
 ## Assignments and Exercises
 
-Each module includes hands-on exercises and projects to reinforce your learning:
-- **Assignment 1**: Basic Syntax and Hello World.
-- **Assignment 2**: Ownership and Borrowing Challenges.
-- **Final Project**: Build a command-line tool in Rust.
+# 20 Rust Programming Projects
+
+This repository contains 20 Rust programming project ideas ranging from beginner to advanced levels. Each project includes a description, suggested modules, and a few key features to implement.
+
+---
+
+## Beginner Level
+
+### 1. CLI To-Do App
+- **Description**: A command-line to-do list manager to add, edit, delete, and view tasks.
+- **Modules**: `std::fs`, `std::io`
+- **Key Features**: Data storage in text or JSON files, user-friendly CLI.
+
+### 2. Temperature Converter
+- **Description**: A CLI app to convert temperatures between Fahrenheit, Celsius, and Kelvin.
+- **Modules**: `std::io`
+- **Key Features**: Data input/output, temperature formula calculations.
+
+### 3. Basic Web Scraper
+- **Description**: Extract specific information from a webpage.
+- **Modules**: `reqwest`, `scraper`
+- **Key Features**: Fetch HTML, parse elements using CSS selectors.
+
+### 4. Markdown to HTML Converter
+- **Description**: Converts Markdown text to HTML format.
+- **Modules**: `regex`, `pulldown-cmark`
+- **Key Features**: Support for headers, lists, and inline formatting.
+
+### 5. Unit Converter
+- **Description**: CLI app to convert units of length, weight, and volume.
+- **Modules**: `std::io`
+- **Key Features**: Enums for unit types, conversion formulas.
+
+### 6. Command-Line Calculator
+- **Description**: A CLI calculator for basic math operations.
+- **Modules**: `std::io`
+- **Key Features**: Parsing input, handling arithmetic errors.
+
+### 7. Number Guessing Game
+- **Description**: A number guessing game that gives hints to the user.
+- **Modules**: `rand`, `std::io`
+- **Key Features**: Random number generation, user interaction.
+
+---
+
+## Intermediate Level
+
+### 8. Weather App
+- **Description**: A CLI app that fetches weather data for a specified location.
+- **Modules**: `reqwest`, `serde_json`
+- **Key Features**: API integration, JSON parsing, CLI.
+
+### 9. File Organizer
+- **Description**: Sorts files into folders by type or date.
+- **Modules**: `std::fs`, `chrono`
+- **Key Features**: File type recognition, date-based sorting.
+
+### 10. Chat Application
+- **Description**: A TCP-based chat app where clients can communicate.
+- **Modules**: `std::net`, `tokio`
+- **Key Features**: TCP sockets, async message handling.
+
+### 11. REST API with Actix-Web
+- **Description**: A REST API server for a to-do list or notes app.
+- **Modules**: `actix-web`, `serde`, `serde_json`
+- **Key Features**: CRUD operations, JSON serialization.
+
+### 12. Image Manipulation Tool
+- **Description**: Tool to resize, crop, or grayscale images.
+- **Modules**: `image`
+- **Key Features**: Image processing, command-line options.
+
+### 13. URL Shortener
+- **Description**: Shortens URLs and stores them in a database.
+- **Modules**: `actix-web`, `serde`, `sqlite`
+- **Key Features**: API for URL shortening, database interaction.
+
+### 14. Text-Based Adventure Game
+- **Description**: A game where players navigate rooms, collect items, and solve puzzles.
+- **Modules**: `std::io`
+- **Key Features**: Structs and enums for game elements, CLI interaction.
+
+### 15. Password Manager
+- **Description**: CLI tool for storing and retrieving encrypted passwords.
+- **Modules**: `std::fs`, `ring`, `rpassword`
+- **Key Features**: Encryption, password hashing, secure file storage.
+
+---
+
+## Advanced Level
+
+### 16. Search Engine for Text Files
+- **Description**: Indexes text files and allows keyword-based searches.
+- **Modules**: `std::fs`, `regex`, `rayon`
+- **Key Features**: Parallel file processing, regex for text matching.
+
+### 17. Blockchain Implementation
+- **Description**: Basic blockchain with block validation.
+- **Modules**: `ring`, `serde`, `chrono`
+- **Key Features**: Cryptographic hashing, chain validation.
+
+### 18. Compiler for a Simple Language
+- **Description**: Compiler with lexer, parser, and basic evaluation.
+- **Modules**: `logos`, `nom`
+- **Key Features**: Tokenization, syntax parsing, code generation.
+
+### 19. File Synchronization Tool
+- **Description**: Syncs files across folders or devices.
+- **Modules**: `std::fs`, `chrono`
+- **Key Features**: File comparison, sync algorithms.
+
+### 20. Concurrency Task Scheduler
+- **Description**: Job scheduler that runs multiple tasks concurrently.
+- **Modules**: `tokio`, `std::sync`
+- **Key Features**: Task scheduling, async execution.
+
+---
+
+
 
 ---
 

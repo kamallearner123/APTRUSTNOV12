@@ -1,5 +1,14 @@
 # [APTRUSTNOV12] - Rust Programming Essentials
 
+# Rust Programming Course (Level – 1)
+
+- **Trainer**: Kamal Kumar Mukiri (@acl)
+- **Time**: 8:00 PM to 9:30 PM (IST)
+- **Dates**: November 11, 2024, to December 12, 2024  
+  - **Schedule**: Monday to Thursday (20 sessions)
+- **Location**: Online (Google Meet)
+
+
 Welcome to the **Rust Programming Essentials** course! This course is designed to provide a comprehensive foundation in Rust programming, covering everything from basic syntax to advanced topics like error handling, memory safety, and concurrency.
 
 ## Course Overview

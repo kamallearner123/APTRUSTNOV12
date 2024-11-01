@@ -109,17 +109,7 @@ This course outline takes learners through foundational to advanced Rust program
 
 ---
 
-## Resources
-
-- [The Rust Programming Language Book](https://doc.rust-lang.org/book/)
-- [Rust By Example](https://doc.rust-lang.org/rust-by-example/)
-- [Official Rust Documentation](https://doc.rust-lang.org/)
-
 ## Assignments and Exercises
-
-# 20 Rust Programming Projects
-
-This repository contains 20 Rust programming project ideas ranging from beginner to advanced levels. Each project includes a description, suggested modules, and a few key features to implement.
 
 ---
 

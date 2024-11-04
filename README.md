@@ -5,7 +5,7 @@
 - **Trainer**: Kamal Kumar Mukiri (@acl)
 - **Time**: 8:00 PM to 9:30 PM (IST)
 - **Dates**: November 11, 2024, to December 12, 2024  
-  - **Schedule**: Monday to Thursday (20 sessions)
+- **Schedule**: Monday to Thursday (20 sessions)
 - **Location**: Online (Google Meet)
 
 

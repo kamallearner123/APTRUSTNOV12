@@ -44,6 +44,9 @@ This course is ideal for:
 ## Module 1: Introduction to Rust
 - **Topics**: Installing Rust, basic syntax, `cargo` package manager, Hello World program.
 - **Outcome**: Set up a Rust development environment, navigate `cargo`, and understand Rust’s core syntax.
+- **Testing**: Unit and integration tests, test organization, assertions, and `#[test]` attributes.
+- **Coverage**: Code coverage with `cargo-tarpaulin` and other tools for tracking tested code.
+- **Linting and Formatting**: Using `rustfmt`, `clippy`, and `cargo-audit` for linting and code quality.
 
 ---
 
@@ -104,11 +107,8 @@ This course is ideal for:
 ## Module 11: Cargo Tools, Testing, and Advanced Rust Tools
 - **Topics**:
   - **Cargo Tools**: Using `cargo` subcommands, workspace management, dependency management, and release profiles.
-  - **Testing**: Unit and integration tests, test organization, assertions, and `#[test]` attributes.
-  - **Coverage**: Code coverage with `cargo-tarpaulin` and other tools for tracking tested code.
   - **Miri**: Running Miri to detect undefined behavior and perform safe checks.
   - **Benchmarking and Profiling**: Performance analysis using `cargo bench` and other profiling tools.
-  - **Linting and Formatting**: Using `rustfmt`, `clippy`, and `cargo-audit` for linting and code quality.
 - **Outcome**: Master Cargo’s powerful features, write thorough tests, analyze code coverage, and use tools like Miri for secure code, making projects robust and production-ready.
 
 ---

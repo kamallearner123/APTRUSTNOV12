@@ -119,6 +119,8 @@ This course outline takes learners through foundational to advanced Rust program
 ---
 
 ## Assignments and Exercises
+Cargo, Lint: https://forms.gle/rPyoUuGBQ9hmUTfk7
+Ownership and References: https://forms.gle/UMaNes7gSUUPqXEq5
 
 ---
 

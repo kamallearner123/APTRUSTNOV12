@@ -1,0 +1,39 @@
+{
+	"rust-analyzer.linkedProjects": [
+		{
+			"sysroot": "",
+			"crates": [
+				{
+					"root_module": "DailyPrograms/Nov14/borrow1.rs",
+					"display_name": "dailyprograms_nov14_borrow1",
+					"edition": "2021",
+					"deps": []
+				},
+				{
+					"root_module": "DailyPrograms/Nov14/ownership.rs",
+					"display_name": "dailyprograms_nov14_ownership",
+					"edition": "2021",
+					"deps": []
+				},
+				{
+					"root_module": "DailyPrograms/Nov14/ownership_with_strucut.rs",
+					"display_name": "dailyprograms_nov14_ownership_with_strucut",
+					"edition": "2021",
+					"deps": []
+				},
+				{
+					"root_module": "DailyPrograms/Nov14/ownership_vector.rs",
+					"display_name": "dailyprograms_nov14_ownership_vector",
+					"edition": "2021",
+					"deps": []
+				},
+				{
+					"root_module": "DailyPrograms/Nov14/reference.rs",
+					"display_name": "dailyprograms_nov14_reference",
+					"edition": "2021",
+					"deps": []
+				}
+			]
+		}
+	]
+}

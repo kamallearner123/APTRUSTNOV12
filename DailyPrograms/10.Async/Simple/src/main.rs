@@ -11,11 +11,13 @@ async fn main() {
     println!("Hello, world!");
 
 
-    let (r1,r2,r3) = tokio::join!( fetch_task("Command1".to_string()),
-    fetch_task("Command2".to_string()),
-    fetch_task("Command3".to_string()));
+    // let (r1,r2,r3) = tokio::join!( fetch_task("Command1".to_string()),
+    //                                 fetch_task("Command2".to_string()),
+    //                                 fetch_task("Command3".to_string()));
 
-    println!("Result = {}", r1);
-    println!("Result = {}", r2);
-    println!("Result = {}", r3);
+    let r1 = fetch_task("Command1".to_string());
+    println!("Called asyn function!!!");
+    r1.await;
+
+    //println!("Result = {:?}", r1);
 }

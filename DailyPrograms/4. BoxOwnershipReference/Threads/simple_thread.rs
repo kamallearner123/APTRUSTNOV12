@@ -1,6 +1,8 @@
 use std::thread;
 use std::sync::{Arc,Mutex};
 
+// Write function to add numbers
+
 
 fn main() {
     /*

@@ -15,7 +15,7 @@ async fn main() {
     //                                 fetch_task("Command2".to_string()),
     //                                 fetch_task("Command3".to_string()));
 
-    let r1 = fetch_task("Command1".to_string());
+    let r1 = fetch_task("Command1".to_string()); // r1 : Future
     println!("Called asyn function!!!");
     r1.await;
 

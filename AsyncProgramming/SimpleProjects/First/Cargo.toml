@@ -1,0 +1,15 @@
+[package]
+name = "awesome_project"            # Name of the crate (lowercase, no spaces)
+version = "0.1.0"                   # Version of the crate (Semantic Versioning)
+edition = "2021"                    # Rust edition (2015, 2018, or 2021)
+description = "An awesome project showcasing Rust Cargo domains." 
+license = "MIT OR Apache-2.0"       # Dual-license with common open-source licenses
+repository = "https://github.com/username/awesome_project"
+homepage = "https://awesome-project.example.com"
+documentation = "https://docs.rs/awesome_project"
+keywords = ["awesome", "project", "example"]
+categories = ["command-line-utilities", "network-programming"]
+readme = "README.md"                # Path to README file
+#default-run = "awesome_project_bin" # Specify the default binary to run with `cargo run`
+
+[dependencies]

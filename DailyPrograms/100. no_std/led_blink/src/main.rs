@@ -16,4 +16,11 @@ fn main() -> ! {
         led.toggle(); // Toggle the LED state
         arduino_hal::delay_ms(1000); // Delay for 1 second
     }
+
+    add(a, b)
+}
+
+
+fn add(i_num1:i32, i_num2:i32) ->i32 {
+    return 10;
 }
